@@ -17,13 +17,13 @@ Creaste a database called `api-users`
 Then run the migration command:
 
 ```
-|$ npm run migrate:all
+$| npm run migrate:all
 ```
 
 And this to run seeds:
 
 ```
-|$ npm run seed:all
+$| npm run seed:all
 ```  
     
 To undo migration and seeds:
@@ -33,4 +33,4 @@ $| npm run migrate:undo
 $| npm run seed:undo
 ``` 
 
-After that type `|$ npm start` to start Express server in localhost:3001.
+After that type `$| npm start` to start Express server in localhost:3001.
